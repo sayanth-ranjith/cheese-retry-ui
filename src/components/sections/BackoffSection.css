@@ -1,0 +1,71 @@
+.backoff {
+  padding: 5rem 1.5rem;
+}
+
+.backoff__layout {
+  margin-top: 3rem;
+  max-width: 680px;
+}
+
+.backoff__tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.backoff__tab {
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  font-family: var(--font-mono);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.backoff__tab--active {
+  font-weight: 700;
+}
+
+.backoff__desc {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+}
+
+.backoff__chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.75rem;
+  height: 160px;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.backoff__bar-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  flex: 1;
+}
+
+.backoff__bar {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  transition: height 0.4s cubic-bezier(0.34,1.56,0.64,1), background 0.3s;
+}
+
+.backoff__bar-label {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.backoff__code {
+  max-width: 580px;
+}
