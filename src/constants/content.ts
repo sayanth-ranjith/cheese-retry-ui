@@ -7,7 +7,7 @@ export const MAVEN_SNIPPET: CodeExample = {
   language: 'xml',
   code: `<dependency>
     <groupId>io.github.sayanth-ranjith</groupId>
-    <artifactId>cheese-retry</artifactId>
+    <artifactId>cheese-retry-core</artifactId>
     <version>0.0.11</version>
 </dependency>`,
 };
